@@ -41,5 +41,5 @@ readFile(filename)
 .then(createUpload)
 .then(logMessage)
 .catch(console.error)
-.then(() => mongoose.connection.close())
+.then(() => mongoose.connection.close)
 ;
